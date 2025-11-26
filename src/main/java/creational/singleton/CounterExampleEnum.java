@@ -30,11 +30,11 @@ public class CounterExampleEnum {
         System.out.println("Should be " + (THREAD_NUMBER * INCREMENT_NUMBER));
     }
 
-    static enum SingletonCounterEnum {
+    enum SingletonCounterEnum {
 
         INSTANCE;
 
-        private SingletonCounterEnum() {
+        SingletonCounterEnum() {
             System.out.println("Singleton created.");
         }
 

@@ -17,7 +17,6 @@ public class CounterExample {
     };
 
 
-
     public static void main(String[] args) throws InterruptedException {
         System.out.println("> Initializing Threads...");
         for (int i = 0; i < THREAD_NUMBER; i++) {
